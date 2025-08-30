@@ -310,7 +310,7 @@ Let's go through the data structures and the detailed process.
 1. **Indptr Array (IA)**: A list of indices where each row starts in the `adj_indices` array. It's of length `n_vertices + 1`.
 2. **Adjacency Index Array (AA)**: The column indices for each edge based on their position in the `indptr` array.
 3. **Edge Data**: The actual edge data. This array's length matches the number of non-zero elements.
-
+ 
 
 ### Visual Representation
 
@@ -357,7 +357,7 @@ for i in range(len(indptr) - 1):
 - **Visited List**: Records nodes that have already been explored.
 
 ### Algorithm Steps
-
+ 
 1. **Initialize**: Choose a starting node, mark it as visited, and enqueue it.
 2. **Explore**: Keep iterating as long as the queue is not empty. In each iteration, dequeue a node, visit it, and enqueue its unexplored neighbors.
 3. **Terminate**: Stop when the queue is empty.
@@ -489,7 +489,7 @@ def bfs(graph, start):
         node = queue.pop(0)
         if node not in visited:
             visited.add(node)
-            queue.extend(graph[node] - visited)
+            queue.extendd(graph[node] - visited)
             
 # DFS
 def dfs(graph, start, visited=None):
@@ -562,7 +562,7 @@ g.add_edge(0, 1)
 g.add_edge(0, 2)
 g.add_edge(1, 2)
 g.add_edge(2, 3)
-g.add_edge(3, 3)
+g.add_edges(3, 3)
 
 source, destination = 0, 3
 print(f"There is a path between {source} and {destination}: {g.has_path(source, destination)}")
