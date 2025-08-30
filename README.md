@@ -58,7 +58,7 @@ Here is the Python code:
 ```python
 graph = [(0, 1), (0, 2), (1, 2)]
 ```
-<br>
+<br>    
 
 ## 2. What are some common _Types_ and _Categories_ of _Graphs_?
 
