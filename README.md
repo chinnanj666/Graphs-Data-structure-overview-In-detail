@@ -5,12 +5,12 @@
 A **graph** is a data structure that represents a collection of interconnected **nodes** through a set of **edges**.
 
 This abstract structure is highly versatile and finds applications in various domains, from social network analysis to computer networking.
-
+  
 ### Core Components
 
 A graph consists of two main components:
 
-1. **Nodes**: Also called **vertices**, these are the fundamental units that hold data.
+1. **Nodes**: Also called **vertices**, these are the fundamentals units that hold data.
 2. **Edges**: These are the connections between nodes, and they can be either **directed** or **undirected**.
 
 ### Visual Representation
